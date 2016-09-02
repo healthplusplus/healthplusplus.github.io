@@ -239,60 +239,55 @@ header {
   background: -webkit-linear-gradient(#ED2F3B, #F5634A, #FB9C60);
   background: -moz-linear-gradient(#ED2F3B, #F5634A, #FB9C60);
   background: linear-gradient(#ED2F3B, #F5634A, #FB9C60);
-  text-align: center;
   color: white;
-  min-height: 100%;
-  min-height: 100vh;
-
+  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
-  /*height: 100%;*/
-  /*min-height: 500px;*/
 }
 header .intro-text {
-  /*padding-top: 100px;*/
-  padding-bottom: 40px;
+  position: relative;
+  padding: 30px 0 80px;
 }
 header .intro-text .logo {
-  height: 110px;
+  height: 150px;
 }
 header .intro-text .intro-heading {
-  font-weight: 300;
-  font-size: 50px;
-  line-height: 1em;
-  margin-bottom: 40px;
+  font-size: 75px;
+  letter-spacing: -3px;
+  margin-bottom: 20px;
 }
 header .intro-text .intro-lead-in {
-  font-style: bold;
-  font-size: 20px;
-  line-height: 1em;
-  margin-bottom: 18px;
+  font-size: 24px;
+  line-height: 1.5em;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   header {
-    /*height: 100vh;*/
-    /*min-height: 600px;*/
+    height: 100%;
   }
   header .intro-text {
-    /*padding-top: 100px;*/
-    /*padding-bottom: 200px;*/
+    padding: 120px 0 200px;
   }
   header .intro-text .logo {
-    height: 150px;
-    margin-bottom: 20px;
+    height: 110px;
   }
   header .intro-text .intro-heading {
-    font-size: 75px;
-    letter-spacing: -3px;
-    margin-bottom: 40px;
+    font-size: 50px;
   }
   header .intro-text .intro-lead-in {
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 1.1em;
     margin-bottom: 12px;
   }
 }
 section {
-  padding: 50px 0;
+  padding: 30px 0;
+}
+section:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+section:nth-of-type(even) {
+  /*background-color: #f7f7f7;*/
 }
 section h2.section-heading {
   font-size: 40px;
@@ -307,7 +302,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 80px 0;
+    padding: 50px 0;
   }
   section h2.section-heading {
     font-size: 40px;
@@ -320,45 +315,69 @@ section h3.section-subheading {
     margin-bottom: 75px;
   }
 }
-section#sponsorship .tile {
+#speakers .speaker {
+  padding: 20px 10px;
+}
+#speakers .speaker-img {
+  width: 100%;
+  padding: 0 20px;
+}
+@media (min-width: 992px) {
+  #speakers .speaker-img {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1200px) {
+  #speakers .speaker-img {
+    padding: 0 50px;
+  }
+}
+#speakers .speaker-name {
+  font-size: 22px;
+  margin-top: 10px;
+}
+#speakers .speaker-info {
+  font-size: 18px;
+}
+#sponsorship .tile {
   padding: 30px 0;
 }
-section#sponsorship .sp-logo {
+#sponsorship .sp-logo {
   height: 50px;
 }
 @media (min-width: 768px) {
-  section#sponsorship .sp-logo {
+  #sponsorship .sp-logo {
     height: 35px;
   }
 }
 @media (min-width: 992px) {
-  section#sponsorship .sp-logo {
+  #sponsorship .sp-logo {
     height: 45px;
   }
 }
 @media (min-width: 1200px) {
-  section#sponsorship .sp-logo {
+  #sponsorship .sp-logo {
     height: 55px;
   }
 }
-section#faq .section-heading {
+#faq .section-heading {
   margin-bottom: 40px;
 }
-section#faq .card {
+#faq .card {
   background-color: white;
   border-radius: 2px;
   box-shadow: 0 0 2px 1px rgba(0,0,0,.1);
   padding: 15px;
   margin: 10px 0;
 }
-section#faq .card .question {
+#faq .card .question {
   border-bottom: 1px solid #ccc;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 10px;
   padding-bottom: 5px;
 }
-section#faq .card .answer {
+#faq .card .answer {
 }
 footer {
   padding: 25px 0;
@@ -406,13 +425,11 @@ ul.social-buttons li a:active {
   outline: none;
 }
 ::-moz-selection {
-  background: #F5634A;
-  color: #FFFFFF;
+  background: #FEBAB7;
   text-shadow: none;
 }
 ::selection {
-  background: #F5634A;
-  color: #FFFFFF;
+  background: #FEBAB7;
   text-shadow: none;
 }
 img::selection {
