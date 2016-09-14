@@ -267,12 +267,30 @@ header .intro-text .intro-lead-in {
   font-size: 24px;
   line-height: 1.5em;
 }
+header .apply {
+  margin-top: 20px;
+}
+header .apply .btn {
+  width: 100%;
+}
+header .apply .btn:hover,
+header .apply .btn:active,
+header .apply .btn:focus {
+  color: #F98457;
+  background-color: #fff;
+}
+@media (max-width: 991px) {
+  header .apply .btn {
+    width: 50%;
+    margin: 5px 0;
+  }
+}
 @media (max-width: 767px) {
   header {
     height: 100%;
   }
   header .intro-text {
-    padding: 120px 0 180px;
+    padding: 60px 0 80px;
   }
   header .intro-text .logo {
     height: 100px;
@@ -284,6 +302,10 @@ header .intro-text .intro-lead-in {
     font-size: 20px;
     line-height: 1.1em;
     margin-bottom: 12px;
+  }
+  header .apply .btn {
+    width: 100%;
+    margin: 5px 0;
   }
 }
 section {
