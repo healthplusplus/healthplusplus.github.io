@@ -9,6 +9,10 @@ body {
 .text-primary {
   color: #F5634A;
 }
+.highlight {
+  font-weight: 400;
+  /*color: */
+}
 p {
   font-size: 12px;
   line-height: 1.5em;
