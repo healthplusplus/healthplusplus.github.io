@@ -258,7 +258,6 @@ header .intro-text .intro-heading {
   font-weight: 100;
   letter-spacing: -3px;
   margin: 20px 0 20px;
-  text-transform: lowercase;
 }
 header .intro-text .intro-heading .bold {
   font-weight: 300;
