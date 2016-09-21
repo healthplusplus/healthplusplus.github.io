@@ -364,6 +364,7 @@ section h3.section-subheading {
 }
 #about .about-header {
   font-size: 34px;
+  line-height: 1em;
 }
 #about .about-icon {
   height: 100px;
