@@ -359,6 +359,19 @@ section h3.section-subheading {
     margin-bottom: 75px;
   }
 }
+#about .about-card {
+  margin: 10px 0;
+}
+#about .about-header {
+  font-size: 34px;
+}
+#about .about-icon {
+  height: 100px;
+  padding: 10px 0;
+}
+#about .about-info {
+  font-size: 18px;
+}
 #speakers .speaker {
   padding: 20px 10px;
 }
