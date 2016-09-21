@@ -255,19 +255,23 @@ header .intro-text {
 }
 header .intro-text .logo {
   height: 120px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
 }
 header .intro-text .intro-heading {
-  font-size: 75px;
+  font-size: 100px;
   font-weight: 100;
   letter-spacing: -3px;
-  margin: 20px 0 20px;
+  line-height: 1em;
+  margin: 20px 0;
 }
 header .intro-text .intro-heading .bold {
   font-weight: 300;
 }
 header .intro-text .intro-lead-in {
-  font-size: 24px;
-  line-height: 1.5em;
+  font-size: 32px;
+  line-height: 1.3em;
 }
 header .intro-text .location {
   margin: 5px 0;
@@ -279,6 +283,7 @@ header .apply {
 }
 header .apply .btn {
   width: 100%;
+  font-size: 16px;
 }
 header .apply .btn:hover,
 header .apply .btn:active,
@@ -297,18 +302,22 @@ header .apply .btn:focus {
     height: 100%;
   }
   header .intro-text {
-    padding: 60px 0 80px;
+    padding: 40px 0 60px;
   }
   header .intro-text .logo {
     height: 100px;
   }
   header .intro-text .intro-heading {
-    font-size: 50px;
+    font-size: 75px;
+    margin: 10px 0;
   }
   header .intro-text .intro-lead-in {
+    font-size: 24px;
+    line-height: 1.2em;
+  }
+  header .intro-text .location {
     font-size: 20px;
-    line-height: 1.1em;
-    margin-bottom: 12px;
+    line-height: 1.2em;
   }
   header .apply .btn {
     width: 100%;
