@@ -1,0 +1,17 @@
+#announcements .card {
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.1);
+  padding: 15px;
+  margin: 10px 0;
+}
+#announcements .card .time {
+  border-bottom: 1px solid #c12942;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  text-align: right;
+}
+#announcements .card .text {
+  font-size: 22px;
+}

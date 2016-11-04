@@ -361,6 +361,12 @@ section h3.section-subheading {
     margin-bottom: 75px;
   }
 }
+@media (min-width: 768px) {
+  .center-cols {
+    display: flex;
+    justify-content: center;
+  }
+}
 #about .about-card {
   margin: 10px 0;
 }
@@ -373,7 +379,12 @@ section h3.section-subheading {
   padding: 10px 0;
 }
 #about .about-info {
-  font-size: 22px;
+  font-size: 20px;
+}
+.address {
+  display: block;
+  font-size: 18px;
+  margin: 10px 0;
 }
 #speakers .speaker {
   padding: 20px 10px;
@@ -413,10 +424,6 @@ section h3.section-subheading {
   #speakers .custom-text-nowrap {
     white-space: normal;
   }
-  #speakers .center-speakers {
-    display: flex;
-    justify-content: center;
-  }
 }
 #information .info-link {
   display: inline-block;
@@ -446,28 +453,6 @@ section h3.section-subheading {
     height: 55px;
   }
 }
-#faq .section-heading {
-  margin-bottom: 40px;
-}
-#faq .card {
-  background-color: white;
-  border-radius: 2px;
-  box-shadow: 0 0 2px 1px rgba(0,0,0,.1);
-  padding: 15px;
-  margin: 10px 0;
-}
-#faq .card .question {
-  border-bottom: 1px solid #c12942;
-  font-size: 24px;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-}
-#faq .card .answer {
-  font-size: 16px;
-}
-
-
-
 
 #thin-header {
   align-items: center;
@@ -477,93 +462,26 @@ section h3.section-subheading {
   background: linear-gradient(#ED2F3B, #F5634A, #FB9C60);
   color: white;
   display: flex;
-  height: 150px;
+  height: 100px;
+  justify-content: center;
 }
 #thin-header .thin-header-text {
   text-transform: uppercase;
   font-size: 50px;
 }
-#schedule .right-align {
-  text-align: right;
-}
-#schedule .schedule-title {
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-#schedule .schedule-item {
-  font-size: 18px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-/*  position: relative;
-  z-index: 1;*/
-}
-/*#schedule .schedule-item:before {
-  content: "";
-  position: absolute;
-  left: 5%;
-  bottom: 0;
-  height: 1px;
-  width: 75%;
-  border-bottom: 1px solid #333;
-}*/
-#schedule .schedule-item .time {
-  display: inline-block;
-  font-weight: 400;
-}
-#schedule .schedule-item .location {
-  display: inline-block;
-}
-#schedule .schedule-item .activity {
-  font-size: 20px;
-}
-#judges .judge {
-  padding: 20px 10px;
-}
-#judges .judge-img-link {
-  display: inline-block;
-  margin: 0 20px;
-}
-#judges .judge-img {
-  width: 100%;
-  -webkit-transition: opacity 200ms;
-}
-#judges .judge-img:hover {
-  opacity: 0.5;
-}
-@media (min-width: 992px) {
-  #judges .judge-img-link {
-    margin: 0 30px;
+@media (max-width: 767px) {
+  #thin-header .thin-header-text {
+    font-size: 50px;
   }
 }
-@media (min-width: 1200px) {
-  #judges .judge-img-link {
-    margin: 0 50px;
+#thin-header .header-logo {
+  height: 70px;
+}
+@media (max-width: 767px) {
+  #thin-header .thin-header-text {
+    font-size: 40px;
   }
 }
-#judges .judge-name {
-  font-size: 22px;
-  margin-top: 10px;
-}
-#judges .judge-info {
-  font-size: 18px;
-}
-#judges .judge-info a {
-  color: inherit;
-}
-@media (min-width: 768px) {
-  #judges .custom-text-nowrap {
-    white-space: normal;
-  }
-  #judges .center-judges {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-
-
-
-
 
 footer {
   padding: 25px 0;
