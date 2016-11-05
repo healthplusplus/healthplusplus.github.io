@@ -9,7 +9,6 @@ section:nth-of-type(odd) {
   font-size: 20px;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  text-align: right;
 }
 #announcements .card .text {
   font-size: 22px;
