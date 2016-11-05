@@ -24,9 +24,10 @@
   font-weight: 400;
 }
 #schedule .schedule-item .location {
-  display: inline-block;
+  font-size: 18px;
 }
 #schedule .schedule-item .activity {
+  display: inline-block;
   font-size: 20px;
 }
 #judges .judge {
