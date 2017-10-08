@@ -293,6 +293,9 @@ header .apply .btn:focus {
   color: #F98457;
   background-color: #fff;
 }
+header .apply .row {
+  margin-top: 10px;
+}
 @media (max-width: 991px) {
   header .apply .btn {
     width: 50%;
