@@ -1,0 +1,74 @@
+.container-bg {
+  background-color: blue;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 1px solid red;
+  line-height: 0.9;
+}
+
+.main-header .wrapper {
+  margin: 0 auto;
+  max-width: 75rem;
+}
+
+.main-header .logo {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+.main-header .logo img {
+  max-width: 3.5rem;
+}
+
+.main-header .main-nav {
+  float: right;
+  padding-right: 1rem;
+}
+
+.main-header .main-nav ul {
+  list-style-type: none;
+}
+
+.main-header .main-nav ul li {
+  display: inline;
+}
+
+.main-header .main-nav ul li a {
+  margin-left: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 0.975rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.main-header .main-nav ul li a:hover {
+  color: RGBA(226, 3, 46, 1);
+  border-bottom: 2px RGBA(226, 3, 46, 1) solid;
+}
+
+.main-header .main-nav ul li a:hover:nth-child(2n) {
+  color: RGBA(244, 201, 0, 1);
+  border-bottom: 2px RGBA(244, 201, 0, 1) solid;
+}
+
+.main-header .main-nav ul li a:hover:nth-child(3n) {
+  color: RGBA(0, 179, 168, 1);
+  border-bottom: 2px RGBA(0, 179, 168, 1) solid;
+}
+
+.main-header .main-nav ul li a:hover:nth-child(4n) {
+  color: RGBA(57, 120, 187, 1);
+  border-bottom: 2px RGBA(57, 120, 187, 1) solid;
+}
+/*# sourceMappingURL=style.css.map */
